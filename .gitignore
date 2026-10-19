@@ -1,0 +1,16 @@
+# Build results (Java / Maven)
+target/
+.mvn/wrapper/maven-wrapper.jar
+.idea/
+.vscode/
+*.iml
+*.class
+*.log
+
+# Arquivos do laboratório (mantidos apenas localmente; alunos devem criar os seus)
+Dockerfile
+**/Dockerfile
+docker-compose.yml
+docker-compose.yaml
+*.yml
+*.yaml

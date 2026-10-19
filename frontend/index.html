@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EventHub</title>
+<style>body{font-family:Arial,sans-serif;background:#0b1020;color:#fff;margin:0}.wrap{max-width:980px;margin:40px auto;padding:0 20px}.card{background:#151c33;padding:22px;border-radius:14px;margin-bottom:18px}.grid{display:grid;grid-template-columns:2fr 1fr 1.5fr 1.5fr auto;gap:10px}input,button{padding:12px;border:0;border-radius:8px}button{background:#2563eb;color:#fff;font-weight:700}.event{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:14px 0;border-bottom:1px solid #28324f}.muted{color:#94a3b8}.danger{background:#475569}@media(max-width:760px){.grid{grid-template-columns:1fr}.event{align-items:flex-start;flex-direction:column}}</style></head>
+<body><main class="wrap"><h1>🎟️ EventHub</h1><p class="muted">Frontend separado consumindo uma API REST.</p>
+<section class="card"><form id="form" class="grid"><input id="nome" placeholder="Evento" required><input id="data" type="date" required><input id="local" placeholder="Local" required><input id="categoria" placeholder="Categoria" required><button>Cadastrar</button></form></section>
+<section class="card"><div id="status" class="muted">Carregando...</div><div id="lista"></div></section></main>
+<script src="app.js"></script></body></html>
