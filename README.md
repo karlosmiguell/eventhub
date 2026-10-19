@@ -49,7 +49,7 @@ O aluno deverá descobrir como criar um Dockerfile baseado em Nginx que copie:
 - `app.js`
 - `nginx.conf`
 
-## Missão do aluno
+## Missão do aluno (Atividade Individual)
 1. Criar `frontend/Dockerfile`.
 2. Criar `backend/Dockerfile`.
 3. Criar `docker-compose.yml` com `frontend`, `backend` e `database`.
